@@ -188,8 +188,8 @@ light:
     rgb_order: GRB
     pin: GPIO20
     num_leds: 1
-    rmt_channel: 0
     chipset: ws2812
+    rmt_channel: 0
     name: "Back light"
     id: rgb_back_light
   #WS2812 LED at the front
@@ -197,8 +197,8 @@ light:
     rgb_order: GRB
     pin: GPIO05
     num_leds: 1
-    rmt_channel: 1
     chipset: ws2812
+    rmt_channel: 1
     name: "Front light"
     id: rgb_front_light
 
